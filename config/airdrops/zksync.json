@@ -1,0 +1,37 @@
+{
+  "id": "zksync",
+  "name": "zkSync Era",
+  "description": "Layer 2 scaling solution - rewards for active ecosystem participants",
+  "networks": ["zksync"],
+  "criteria": {
+    "minTransactions": 20,
+    "minVolume": 200,
+    "minActiveDays": 10,
+    "minActiveWeeks": 4,
+    "minContractInteractions": 8,
+    "requiresBridge": true,
+    "minBridgeTransactions": 1
+  },
+  "contracts": {
+    "zksync": [
+      {
+        "address": "0x8B791913eB07C32779a16750e3868aA8495F5964",
+        "network": "zksync",
+        "name": "SyncSwap Router",
+        "type": "dex"
+      },
+      {
+        "address": "0x2da10A1e27bF85cEdD8FFb1AbBe97e53391C0295",
+        "network": "zksync",
+        "name": "Mute.io Router",
+        "type": "dex"
+      },
+      {
+        "address": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+        "network": "zksync",
+        "name": "zkSync Name Service",
+        "type": "nft"
+      }
+    ]
+  }
+}

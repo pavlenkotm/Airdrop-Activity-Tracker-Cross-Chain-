@@ -1,0 +1,25 @@
+{
+  "id": "linea",
+  "name": "Linea",
+  "description": "ConsenSys Layer 2 - potential rewards for early adopters",
+  "networks": ["ethereum"],
+  "criteria": {
+    "minTransactions": 15,
+    "minVolume": 150,
+    "minActiveDays": 7,
+    "minActiveWeeks": 3,
+    "minContractInteractions": 6,
+    "requiresBridge": true,
+    "minBridgeTransactions": 1
+  },
+  "contracts": {
+    "ethereum": [
+      {
+        "address": "0xd19d4B5d358258f05D7B411E21A1460D11B0876F",
+        "network": "ethereum",
+        "name": "Linea Bridge",
+        "type": "bridge"
+      }
+    ]
+  }
+}

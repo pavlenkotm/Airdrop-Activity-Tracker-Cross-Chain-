@@ -1,0 +1,18 @@
+{
+  "id": "berachain",
+  "name": "Berachain",
+  "description": "EVM-compatible L1 with liquidity proof-of-stake - testnet activity tracking",
+  "networks": ["ethereum"],
+  "criteria": {
+    "minTransactions": 25,
+    "minVolume": 250,
+    "minActiveDays": 12,
+    "minActiveWeeks": 5,
+    "minContractInteractions": 10,
+    "requiresBridge": false,
+    "minBridgeTransactions": 0
+  },
+  "contracts": {
+    "ethereum": []
+  }
+}

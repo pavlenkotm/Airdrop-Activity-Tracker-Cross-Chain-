@@ -1,0 +1,37 @@
+{
+  "id": "base",
+  "name": "Base",
+  "description": "Coinbase Layer 2 - incentives for ecosystem growth",
+  "networks": ["base"],
+  "criteria": {
+    "minTransactions": 15,
+    "minVolume": 150,
+    "minActiveDays": 8,
+    "minActiveWeeks": 3,
+    "minContractInteractions": 7,
+    "requiresBridge": true,
+    "minBridgeTransactions": 1
+  },
+  "contracts": {
+    "base": [
+      {
+        "address": "0x8909Dc15e40173Ff4699343b6eB8132c65e18eC6",
+        "network": "base",
+        "name": "Aerodrome Finance",
+        "type": "dex"
+      },
+      {
+        "address": "0x327Df1E6de05895d2ab08513aaDD9313Fe505d86",
+        "network": "base",
+        "name": "BaseSwap",
+        "type": "dex"
+      },
+      {
+        "address": "0x03a520b32C04BF3bEEf7BEb72E919cf822Ed34f1",
+        "network": "base",
+        "name": "Moonwell",
+        "type": "lending"
+      }
+    ]
+  }
+}
